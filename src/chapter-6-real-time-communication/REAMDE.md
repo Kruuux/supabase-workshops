@@ -1,8 +1,8 @@
-# CRUD
+# Real time communication
 
 ## Description
 
-In this chapter we will test the standard functionality of many backend applications such as saving, reading, updating and deleting records from the database.
+In this chapter we will test real time communication capabilities.
 
 ## Steps
 
