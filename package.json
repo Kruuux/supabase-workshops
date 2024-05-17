@@ -2,20 +2,20 @@
   "name": "supabase-workshops",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "node ./src/chapter-1/index.js"
+    "chapter-1": "tsx ./src/chapter-1/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.43.2",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "tsx": "^4.10.4"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
-    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
 }
