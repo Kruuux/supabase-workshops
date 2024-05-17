@@ -4,13 +4,21 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "chapter-1": "tsx ./src/chapter-1/index.ts"
+    "chapter-1": "tsx ./src/chapter-1-crud/index.ts",
+    "chapter-2": "tsx ./src/chapter-2-authentication/index.ts",
+    "chapter-3": "tsx ./src/chapter-3-authorization/index.ts",
+    "chapter-4": "tsx ./src/chapter-4-custom-business-logic/index.ts",
+    "chapter-5": "tsx ./src/chapter-5-file-storage/index.ts",
+    "chapter-6-listener": "tsx ./src/chapter-6-real-time-communication/listener.ts",
+    "chapter-6-sender": "tsx ./src/chapter-6-real-time-communication/sender.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.43.2",
+    "@types/axios": "^0.14.0",
+    "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "tsx": "^4.10.4"
   },
